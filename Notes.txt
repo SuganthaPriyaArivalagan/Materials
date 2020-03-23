@@ -1,0 +1,25 @@
+onpromise 
+====================
+1. web server - VM IIS server 
+2. database  - azure sql database
+3. multiple modules - AKS containers
+4. web services  - API , functions
+5. files, images - storage account
+6. state management - radiscache, CDN
+7. Authentication & Authorization - Azure AD, API Management, Oauth
+8. load balancing - azure load balancing
+
+need to focus
+================
+how to rollback
+disaster
+how to consider cost wise
+avoid slowness- how to increase performance
+
+Inheritance example (base class & Child class)
+Overloading example 
+override examples   
+Getting user details in console App
+
+
+.net core

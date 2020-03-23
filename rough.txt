@@ -1,0 +1,71 @@
+ref & out keyword
+readony & constant keyword
+how to print odd number below 1000 -> there is one function 
+string s = "this is my world" -> how to remove space
+extension method
+why static class & purpose?
+oveeride which keyword used to override?
+first() & firstordefault() diff in linq
+try and finally possible without catch?
+why we use "using" in sql connection
+how to clear third party ddl memory?
+sql query to get salary between 10k to 15k
+joins in sql
+http request & http response in MVC
+DB first approach in EF
+solid principles
+lambda expression in c#
+why we going for API
+how to call the API
+Design pattern
+async await in c#
+Attributes in MVC
+Attribute routing in MVC
+Purpose of Dependency injection
+Optional parameter
+relation between optional parameter & overloading
+Var & Dynamic
+Extension
+Possibile to Pass method parameter as (Var a , Var b)
+Include keyword in EF
+POCO in EF
+How to write global error page and where to register it and how to call it?
+In Authrorize filter how to pass additional paramter (Ans : IAuthroze)
+What are methods possible in Dependency Injection
+Which design patter you have worked & Types?
+how do you indentity the design pattern?
+If clients wants to host application into multiple location how to acheive it
+what are the filters you have been worked? 
+how to migrate on premise user into AD azure
+Oauth what is it
+deployment model in OAuth
+what you did in POC
+how to insert API result into Database (conversion JSON  into Datatable)
+
+string s="10";
+string b = s;
+print(b);
+b = "20";
+print(s);
+
+interface I1        interface I2
+{		    {
+add();			mul();
+sub();			div();
+}		    }
+
+class C1 : I1, I2
+{
+add();
+sub();  
+mul();
+div();
+}
+
+Class C2 : C1
+{
+I1 obj = new Class C2
+obj.Mul();
+}
+
+

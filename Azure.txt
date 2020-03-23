@@ -1,0 +1,8 @@
+1.       Recent project worked on and features used from Azure.
+2.       How to enable security in API management
+3.       Challenge faced during Azure 301 training
+4.       Use of service bus queue
+5.       Traffic manager 
+6.       Logic Apps
+7.       CI-CD pipeline
+8.       How external APIs are used in application 

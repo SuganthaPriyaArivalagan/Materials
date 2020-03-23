@@ -1,0 +1,13 @@
+# Pull base image – to setup the infra for application like which environments
+From tomcat:8-jre8
+
+# Maintainer
+MAINTAINER sampleapp
+
+#working directory - to avoid the default path which taken by docker. Workdir is used to set path for war file
+WORKDIR	/home/adminuser/springbootapp/War
+
+# Copy to images tomcat path - – to copy from the war file, which is in Ubuntu server (already mentioned in workdir) to tomcat application path
+COPY springrestdemo-0.0.1-snapshot.war /usr/local/tomcat/webapps/springrestdemo-0.0.1-snapshot.war
+
+EXPOSE 8081

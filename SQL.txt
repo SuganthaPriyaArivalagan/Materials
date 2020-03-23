@@ -1,0 +1,26 @@
+If you are a SQL Developer, how can you delete duplicate records in a table with no primary key?
+What is the SQL CASE statement used for? Explain with an example?
+How to find second highest salary of an Employee?
+What is an Index?
+What is a Cursor?
+ What is subquery?
+What is a trigger?
+What is the difference between DELETE and TRUNCATE commands?
+ What is a constraint?
+What are all types of user defined functions?
+Advantages and Disadvantages of Stored Procedure?
+How can you create an empty table from an existing table?
+How to fetch common records from two tables?
+What is the command used to fetch first 5 characters of the string?
+
+There are many ways to fetch first 5 characters of the string -.
+
+
+Select SUBSTRING(StudentName,1,5) as studentname from student
+1
+Select SUBSTRING(StudentName,1,5) as studentname from student
+MySQL
+
+Select RIGHT(Studentname,5) as studentname from student
+1
+Select RIGHT(Studentname,5) as studentname from student

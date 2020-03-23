@@ -1,0 +1,24 @@
+how to get last inserted record in sql
+how to acheive table mapping in EF
+properties in EF
+LINQ execution methods - immediate & deffered
+
+
+ienumerable & iquerable 
+private constructor
+why logic app & what purpose you have created 
+why function app & what purpose have used function app
+can we call logic app to c#
+class A , Class B inherit class A , if we creating object for class B which one first call
+
+what will be the parameters of API
+what are the output responses in API
+how to call API in froend end and backend as well
+how to handle if multipe users hitting API at same time
+what is outer join
+how to define structure of API
+what is endpoint in API & how to check
+asynchornous
+
+
+

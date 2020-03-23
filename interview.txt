@@ -1,0 +1,39 @@
+i have 10 records in table. want to select last 2 inserted values
+--use @@identity and scope identity
+diff b/w nvarchar varchar
+--nvarchar allow national lang
+
+where will use service bus queue
+--when sender and receiver no need to be there at same time
+how to send same message to multiple customers in service bus
+what is topic and queue & which scenerio we will use in service bus queue
+--topic one sender and many receiver & queue stop duplication and deadlocker(store
+expired queue and long time no consideration from receiver side)
+how many hours message will be in queue
+--14 days(we can change)
+how many types of blob (blob to blob, page blob)
+you have API , want to get output difference format(json, XML, text) what will do
+Ans - using filter we can change the output format(result filter might use)
+where to use function app - small function use as api
+difference b/w app service & function app
+if you have web app which one will you choose app service or function app? why
+diff b/w paas & iaas ? which one you will choose?why?
+if you have web app which one will you choose Paas service or iaas service? why
+when to use abstraction & interface and difference
+dependency injection
+GAC - when it will use? - when project goes to out of scope GAC will comes into the pic
+int a=5, b=a    a=10    print(a,b)value will be 5,5 how?
+how to clone object
+inversion of control c#
+difference b/w eventhub & service bus queue
+why we are going for eventhub with examples
+exmaples of functions
+AKS - Why using docker and use of node
+Eager loading and lazy loading difference
+how to stop eager loading to select particular function
+which part of API u have worked on
+how to connect on premise app to azure app?
+explain about integration Runtime in ADF
+VPN connectivity?
+
+

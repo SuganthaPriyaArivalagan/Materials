@@ -1,0 +1,96 @@
+properties
+===============
+used to access private fields from another class
+
+if we using function, directly  we can't change the properties value, first we have to assign 
+funtion value to one variable and then we can perform any operation
+
+but using properties directly we can access and change the value 
+
+Delegates
+============
+same signatures with multiple method implns
+
+it should be same return type and parameters
+
+method name can be different
+
+In interface same signatures one implns
+
+Constants
+===============
+value should assign at comile time
+we can't reassign or change
+
+Readonly
+===============
+Readonly is the keyword whose value we can change during runtime or we can assign it at run time 
+but only through the non-static constructor. Not even a method.
+
+Static ReadOnly
+================
+this variable's value can only be changed in the static constructor. 
+And cannot be changed further. It can change only once at runtime
+
+Authorization is a process of allowing or denying resources to particular user or record 
+=============
+
+Authentication is a process where we identify the credentials of user i.e. username, password and create an identity to mention user as an authenticated
+================
+
+“Convert” function handles NULLS while
+“.ToString()” does not it will throw a NULL reference exception error. So as a good coding
+practice using “convert” is always safe
+
+Primary key does not allow the null values but unique key allows one null value.
+Primary key will create clustered index on column but unique key will create non-clustered index by default.
+
+paging
+=========
+if you want to display large amount records in gridview, we use paging and display set of few records
+in each gridview pages. Sorting feature used to sort the records based on the selected columns 
+in gridview and display the records in ascending or descending order
+
+To use these options in our gridview we need to set AllowPaging="true" and PageSize="5" Properties
+ here pageSize
+
+<PagerSettings Mode="NextPreviousFirstLast" PageButtonCount="4" PreviousPageText="Previous"
+ NextPageText="Next" FirstPageText="First" LastPageText="Last" />
+
+PAGE LIFE CYCLE
+==================
+SILVER
+S = Start 
+I  = Initialization
+L = Load
+V = Validate
+E = Event Handlers
+R = Render
+
+PAGE REQUEST:
+page properties such as Request and Response are set.
+At this stage, the page also determines whether the request is a postback or a new request 
+sets the IsPostBack property
+
+INITIALIZATION:
+each control's UniqueID property is set
+A master page and themes are also applied 
+
+LOAD:
+calls the OnLoad method - all controls are loaded
+to establish database connections
+
+VALIDATE & EVENT HANDLING:
+event handlers are called - handle specific control events, such as a Button control's Click event or a TextBox control's TextChanged event
+all validator controls is called
+
+RENDER:
+he page calls the Render method - hat writes its output to the OutputStream object of the page's Response property.
+
+UNLOAD:
+page properties such as Response and Request are unloaded
+cleanup is performed.
+
+VIEWSTATE
+=============
+ViewState is used to maintain the value of controls during page postback 

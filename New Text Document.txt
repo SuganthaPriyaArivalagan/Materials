@@ -1,0 +1,97 @@
+
+What is the difference between an EXE and a DLL?
+What is boxing?
+Is string a value type or a reference type?
+What is the Global Assembly Cache (GAC)? What problem does it solve?
+What is an Interface and how is it different from a Class?
+What is Reflection
+How is a strongly-named assembly different from one that isn’t strongly-named?
+What is the difference between
+Finalize()and
+Dispose()
+What is the difference between:
+catch (Exception e) {throw e;}and catch
+(Exception e) {throw;}
+What is a PostBack?
+What is ViewState? How is it encoded? Is it encrypted? Who uses ViewState? Why is it either useful or evil?
+What Session State providers are available in ASP.NET? What are the pros and cons of each?
+What are HttpHandlers?
+How do cookies work? What is an example of Cookie abuse?
+Whats the difference between an abstract class and interface? When would you want to use them?
+What's the difference between viewstate and sessionstate?
+What's the difference between overriding and overloading a method? Explain how both are done.
+What's the difference between protected and internal? What about "protected internal"?
+How do short-circuited operators work?
+Explain what the StringBuilder class is and why you'd want to use it?
+What's the difference between a static method and a non-static method?
+What does the "volatile" keyword in C# mean?
+Explain what happens when you pass a "ref" or "out" parameter into a method. What's the difference between those two keywords?
+What's a weakreference? When would you want to use one?
+What's the difference between a DataTable and a DataReader?
+What's the difference between a value-type and a reference type?
+What does the "readonly" keyword in C# mean?
+diff b/w constant & readonly
+2Types of Authentication and Authorisation in ASP.Net.
+ASP.Net Life cycle. 
+Page Life Cycle.
+What are types: Value Type and Reference Type?
+Boxing and Unboxing: Terminology, Advantages and Disadvantages.
+What is Type Safety? 
+What is Strong Name?
+What are Extensions, modules and handlers?
+What is worker process?
+CLR and DLR?
+In case more than one version of an installable is installed, which version is invoked by default?
+What are Globalisation and localisation? How to implement them?
+What is assembly, GAC? Where they are physically located?
+How to configure HTTPS for a web application?
+What are in-proc and out-proc? Where are data stored in these cases?
+When the View state is saved, and when is it loaded? How to enable/ disable View states?
+Difference between GET and POST. Which one is more secure?
+What are Razor engines? How is it diff from ASP Engines?
+Pros and cons of JavaScript and AJAX.
+In how many different ways can JavaScript be used/called in an application?
+What needs to be done to call a JavaScript function from code behind?
+Difference between Server Controls and User controls?
+Difference between Var, object and Dynamic types.
+Difference between Functions and methods.
+Difference between Abstract classes and Interface. Explain with scenario where to implement one?
+Different forms of Polymorphism. Differences between Abstraction and Polymorphism.
+What are Delegates and Events.
+Covariance and Contravariance.
+What are Extension methods.
+What are Anonymous methods and Lambda Expression.
+Multithreading. How to implement Multithreading?
+
+
+SQL Server
+rank() in sql
+rownumber()
+@@identity
+@@scope_identity
+@@ident_current
+normalization
+error handling (try-catch, @@error)
+sql transactions (begin, commit, rollback) , @@trancount
+CTE
+Temporary table
+Table variable
+Primary key, Foreign key, Unique key
+on cascade update, on cascade delete in foriegn key table
+roll up, cubing
+merge
+clustered & non clustered
+What's the difference between a left join and an inner join?
+What is the difference between a View and a Cursor?
+How to execute multiple update on different conditions in a single query?
+Left outer joins and Right Outer joins
+Exception handling.
+What is Performance Tuning? How do you implement it.
+Difference between Having and where clauses.
+Difference between Temp tables and Tables variables?
+What does @ and @@ suffixed by property names specify?
+Self-join queries.
+Types of Index.
+Difference between Primary key , Unique key and Candidate key?
+What is the default value for Date type. What are Min and Max values for Date in 2008.
+

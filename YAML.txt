@@ -1,0 +1,12 @@
+version: '3'
+services:
+  web1:
+    image: 21121990/springbootapp8080port:app
+    ports:
+      - "8080:8080"
+      
+  web2:
+    image: 21121990/warproject8081port:war
+    ports:
+      - "8081:8080"
+

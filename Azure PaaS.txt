@@ -1,0 +1,47 @@
+paas
+========
+devloper can deploy esily without worrying infra
+no worrry os, software patch
+managed by cloud provider
+create platform
+just develop and deploy
+3rd party, tiw with azure with paas
+
+iaas
+=====
+startrd with azure
+banking will use , because security
+everyhing handled by them , prefer iaas
+
+saas
+=========
+don't have ownership
+just go and consume
+developer , we not have any control 
+
+
+app services
+===============
+deploy web app, web api
+3 parts ---website, webapi, azure mobile app
+deploy need iis, but app service no need to worry
+
+service plan - all the config done for webapplication
+
+webapi->azure web api
+it dont have UI,from here it has swagger to test
+
+webjobs
+=============
+backgrund process like orders, messages
+3types - contniues,scheduled,triggered
+supporting scripts run along with website
+
+function app
+================
+it will not create any server, just need piece of code that's y serverless
+it has limitation like small appliation
+pay only time for use
+here use sendgrid to handle multiple service, if not sendgrid you have to write
+ multiple methods and it should run 24/7 means always
+
